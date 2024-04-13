@@ -1,8 +1,12 @@
 {
     "items": [
-      { "id": 1, "name": "Something", "category": "Category A", "data" : [10,20,30,40], "labels" : ["A","B","C","D"] },
-      { "id": 2, "name": "Nothing", "category": "Category B","data" : [60,20,10,40], "labels" : ["E","F","G","H"] },
-      { "id": 3, "name": "Everything", "category": "Category A","data" : [100,80,30,50], "labels" : ["I","J","K","L"] },
-      { "id": 4, "name": "ummmm", "category": "Category C","data" : [10,50,30,20], "labels" : ["M","N","O","P"] }
+      { "id": 1, "name": "What is the distribution of ages in a given population?", "category": "Category A", "data" : [10,20,30,40], "labels" : ["A","B","C","D"] },
+      { "id": 2, "name": "What is the trend of unemployment rates over the past five years?", "category": "Category B","data" : [60,20,10,40], "labels" : ["E","F","G","H"] },
+      { "id": 3, "name": "What are the sales figures for different product categories in the last quarter?", "category": "Category A","data" : [100,80,30,50], "labels" : ["I","J","K","L"] },
+      { "id": 4, "name": "How does the distribution of incomes vary across different regions?", "category": "Category C","data" : [10,50,30,20], "labels" : ["M","N","O","A"] },
+      { "id": 5, "name": "What is the correlation between study hours and exam scores among students?", "category": "Category C","data" : [10,50,30,20], "labels" : ["M","N","Z","P"] },
+      { "id": 6, "name": "What is the trend of temperature variation throughout the year in a specific location?", "category": "Category A","data" : [10,40,30,20], "labels" : ["M","N","O","P"] },
+      { "id": 7, "name": "How does the distribution of customer ratings vary across different products?", "category": "Category B","data" : [20,50,30,20], "labels" : ["M","N","Z","P"] },
+      { "id": 8, "name": "What is the distribution of household income levels in a particular country?", "category": "Category C","data" : [10,25,10,20], "labels" : ["M","X","O","P"] }
     ]
   }

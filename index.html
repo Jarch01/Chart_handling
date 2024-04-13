@@ -8,16 +8,21 @@
 </head>
 <body>
     <div class="container">
-        <div class="left-section">
-            <input type="text" id="search" onkeyup="search()" placeholder="Search...">
-            <ul id="item-list">
-                <li onclick="handleItemClick('Item 1')">Item 1</li>
-                <li onclick="handleItemClick('Item 2')">Item 2</li>
-                <li onclick="handleItemClick('Item 3')">Item 3</li>
-                <li onclick="handleItemClick('Item 4')">Item 4</li>
-                <!-- Add more items here -->
-            </ul>
+        <div class="sidebar">
+            <div class="left-section">
+                <input type="text" id="search" onkeyup="search()" placeholder="Search...">
+                <ul id="item-list">
+                    <li onclick="handleItemClick('Item 1')">Item 1</li>
+                    <li onclick="handleItemClick('Item 2')">Item 2</li>
+                    <li onclick="handleItemClick('Item 3')">Item 3</li>
+                    <li onclick="handleItemClick('Item 4')">Item 4</li>
+                    <!-- Add more items here -->
+                </ul>
+            </div>
         </div>
+        
+
+        
         <div class="right-section">
             <canvas id="chart"></canvas>
         </div>

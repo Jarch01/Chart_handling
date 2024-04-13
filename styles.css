@@ -6,49 +6,62 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #58b4ff;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 100%;
 }
 
 .left-section {
     flex: 1;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
 }
+.sidebar {
+    width: 400px;
+    height: 100%;
+    background-color: #f0f0f0;
+    margin: 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
 
 .right-section {
     flex: 1;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 50px;
+    margin: 20px 10px;
+    border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 input[type="text"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    outline: none;
+    outline:#58b4ff;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
+    padding: 2px;
 }
 
 li {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #cccccc58;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: #ffededa0;
 }
 
 canvas {
