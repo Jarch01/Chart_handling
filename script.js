@@ -52,21 +52,47 @@ let data = {
         label: item.category,
         data: item.data,
         type: 'line',
+        lineTension: 0.4
     }
 ]
 };
 
 // Define chart options
 let options = {
-    scales: {
-        y: {
-            beginAtZero: true,
+    plugins: {
+        title: {
+            display: true,
+            text: item.name,
+            font: {
+                weight: 'bold',
+                size: 30,
+            },
+            color: 'black'
         },
-        yAxes: [{
-            ticks: {
-                beginAtZero: true
+    },
+    scales: {
+        x: {
+            title: {
+                display: true,
+                text: "X Axis",
+                font: {
+                    weight: 'bold',
+                    size: 24,
+                },
+                color: 'black'
             }
-        }]
+        },
+        y: {
+            title: {
+                display: true,
+                text: "Y Axis",
+                font: {
+                    weight: 'bold',
+                    size: 24,
+                },
+                color: 'black'
+            }
+        }
     }
 };
 
@@ -74,7 +100,7 @@ let options = {
 myChart = new Chart(ctx, {
     type: 'bar', // Change this to the type of chart you want (bar, line, pie, etc.)
     data: data,
-    //options: options
+    options: options
 });
 
 }

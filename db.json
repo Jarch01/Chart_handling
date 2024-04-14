@@ -1,12 +1,704 @@
 {
     "items": [
-      { "id": 1, "name": "What is the distribution of ages in a given population?", "category": "Category A", "data" : [10,20,30,40], "labels" : ["A","B","C","D"] },
-      { "id": 2, "name": "What is the trend of unemployment rates over the past five years?", "category": "Category B","data" : [60,20,10,40], "labels" : ["E","F","G","H"] },
-      { "id": 3, "name": "What are the sales figures for different product categories in the last quarter?", "category": "Category A","data" : [100,80,30,50], "labels" : ["I","J","K","L"] },
-      { "id": 4, "name": "How does the distribution of incomes vary across different regions?", "category": "Category C","data" : [10,50,30,20], "labels" : ["M","N","O","A"] },
-      { "id": 5, "name": "What is the correlation between study hours and exam scores among students?", "category": "Category C","data" : [10,50,30,20], "labels" : ["M","N","Z","P"] },
-      { "id": 6, "name": "What is the trend of temperature variation throughout the year in a specific location?", "category": "Category A","data" : [10,40,30,20], "labels" : ["M","N","O","P"] },
-      { "id": 7, "name": "How does the distribution of customer ratings vary across different products?", "category": "Category B","data" : [20,50,30,20], "labels" : ["M","N","Z","P"] },
-      { "id": 8, "name": "What is the distribution of household income levels in a particular country?", "category": "Category C","data" : [10,25,10,20], "labels" : ["M","X","O","P"] }
+        {
+            "id": 1,
+            "name": "What is the distribution of ages in a given population?",
+            "category": "Category A",
+            "data": [10, 30, 60, 40, 50, 20, 15],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 2,
+            "name": "How does temperature affect plant growth?",
+            "category": "Category B",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 3,
+            "name": "What are the primary causes of air pollution?",
+            "category": "Category C",
+            "data": [20, 30, 40, 50, 60, 70, 80],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 4,
+            "name": "How does exercise impact mental health?",
+            "category": "Category D",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 5,
+            "name": "What is the relationship between income and happiness?",
+            "category": "Category E",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 6,
+            "name": "How does technology impact productivity?",
+            "category": "Category F",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 7,
+            "name": "What factors influence consumer purchasing decisions?",
+            "category": "Category G",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 8,
+            "name": "How does music affect mood?",
+            "category": "Category H",
+            "data": [20, 30, 40, 50, 60, 70, 80],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 9,
+            "name": "What are the effects of caffeine on the body?",
+            "category": "Category I",
+            "data": [15, 25, 35, 45, 55, 65, 75],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 10,
+            "name": "How does social media usage affect relationships?",
+            "category": "Category J",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 11,
+            "name": "What are the effects of climate change on ecosystems?",
+            "category": "Category K",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 12,
+            "name": "How does meditation impact stress levels?",
+            "category": "Category L",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 13,
+            "name": "What factors influence job satisfaction?",
+            "category": "Category M",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 14,
+            "name": "How does diet affect physical health?",
+            "category": "Category N",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 15,
+            "name": "What is the impact of globalization on culture?",
+            "category": "Category O",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 16,
+            "name": "How do genetics influence behavior?",
+            "category": "Category P",
+            "data": [20, 30, 40, 50, 60, 70, 80],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 17,
+            "name": "What are the effects of pollution on human health?",
+            "category": "Category Q",
+            "data": [15, 25, 35, 45, 55, 65, 75],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 18,
+            "name": "How does art therapy benefit mental health?",
+            "category": "Category R",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 19,
+            "name": "What is the relationship between education and income?",
+            "category": "Category S",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 20,
+            "name": "How does sleep affect memory consolidation?",
+            "category": "Category T",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 21,
+            "name": "What factors contribute to employee satisfaction?",
+            "category": "Category U",
+            "data": [20, 30, 40, 50, 60, 70, 80],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 22,
+            "name": "How does social media usage affect self-esteem?",
+            "category": "Category V",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 23,
+            "name": "What are the impacts of deforestation on biodiversity?",
+            "category": "Category W",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 24,
+            "name": "How does technology impact social interaction?",
+            "category": "Category X",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 25,
+            "name": "What are the effects of stress on the body?",
+            "category": "Category Y",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 26,
+            "name": "How does exercise impact cardiovascular health?",
+            "category": "Category Z",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 27,
+            "name": "What factors influence academic performance?",
+            "category": "Category AA",
+            "data": [20, 30, 40, 50, 60, 70, 80],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 28,
+            "name": "How does nutrition impact brain function?",
+            "category": "Category BB",
+            "data": [15, 25, 35, 45, 55, 65, 75],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 29,
+            "name": "What are the effects of peer pressure on decision-making?",
+            "category": "Category CC",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 30,
+            "name": "How does environmental pollution affect wildlife?",
+            "category": "Category DD",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 31,
+            "name": "What factors contribute to romantic attraction?",
+            "category": "Category EE",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 32,
+            "name": "How does technology impact job opportunities?",
+            "category": "Category FF",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 33,
+            "name": "What are the effects of sleep deprivation on cognitive function?",
+            "category": "Category GG",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 34,
+            "name": "How does social media influence political opinions?",
+            "category": "Category HH",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 35,
+            "name": "What factors contribute to success in education?",
+            "category": "Category II",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 36,
+            "name": "How does music affect learning?",
+            "category": "Category JJ",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 37,
+            "name": "What are the effects of childhood trauma on development?",
+            "category": "Category KK",
+            "data": [20, 30, 40, 50, 60, 70, 80],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 38,
+            "name": "How does technology affect human relationships?",
+            "category": "Category LL",
+            "data": [15, 25, 35, 45, 55, 65, 75],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 39,
+            "name": "What factors influence economic growth?",
+            "category": "Category MM",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 40,
+            "name": "How does social support affect mental health?",
+            "category": "Category NN",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 41,
+            "name": "What are the effects of aging on cognitive abilities?",
+            "category": "Category OO",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 42,
+            "name": "How does technology impact mental health?",
+            "category": "Category PP",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 43,
+            "name": "What factors influence personality development?",
+            "category": "Category QQ",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 44,
+            "name": "How does exercise impact bone density?",
+            "category": "Category RR",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 45,
+            "name": "What is the relationship between nutrition and longevity?",
+            "category": "Category SS",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 46,
+            "name": "How does technology influence creativity?",
+            "category": "Category TT",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 47,
+            "name": "What are the effects of social isolation on mental health?",
+            "category": "Category UU",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 48,
+            "name": "How does sleep quality impact overall health?",
+            "category": "Category VV",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 49,
+            "name": "What factors influence career choice?",
+            "category": "Category WW",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 50,
+            "name": "How does technology affect attention span?",
+            "category": "Category XX",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 51,
+            "name": "What are the effects of divorce on children?",
+            "category": "Category YY",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 52,
+            "name": "How does exercise impact mood?",
+            "category": "Category ZZ",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 53,
+            "name": "What factors influence consumer behavior?",
+            "category": "Category AAA",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 54,
+            "name": "How does technology impact education?",
+            "category": "Category BBB",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 55,
+            "name": "What are the effects of social media on body image?",
+            "category": "Category CCC",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 56,
+            "name": "How does technology impact language development?",
+            "category": "Category DDD",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 57,
+            "name": "What are the effects of media violence on behavior?",
+            "category": "Category EEE",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 58,
+            "name": "How does technology affect creativity?",
+            "category": "Category FFF",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 59,
+            "name": "What factors influence entrepreneurship?",
+            "category": "Category GGG",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 60,
+            "name": "How does technology impact social skills?",
+            "category": "Category HHH",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 61,
+            "name": "What are the effects of cyberbullying on mental health?",
+            "category": "Category III",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 62,
+            "name": "How does technology impact privacy?",
+            "category": "Category JJJ",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 63,
+            "name": "What factors influence health behavior?",
+            "category": "Category KKK",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 64,
+            "name": "How does technology impact mental health stigma?",
+            "category": "Category LLL",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 65,
+            "name": "What are the effects of urbanization on the environment?",
+            "category": "Category MMM",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 66,
+            "name": "How does social support influence resilience?",
+            "category": "Category NNN",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 67,
+            "name": "What factors influence learning styles?",
+            "category": "Category OOO",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 68,
+            "name": "How does technology impact attention deficit disorder?",
+            "category": "Category PPP",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 69,
+            "name": "What are the effects of gender stereotypes on behavior?",
+            "category": "Category QQQ",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 70,
+            "name": "How does technology affect sleep patterns?",
+            "category": "Category RRR",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 71,
+            "name": "What factors influence body image perception?",
+            "category": "Category SSS",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 72,
+            "name": "How does technology impact physical activity levels?",
+            "category": "Category TTT",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 73,
+            "name": "What are the effects of body image on self-esteem?",
+            "category": "Category UUU",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 74,
+            "name": "How does technology affect attention span in children?",
+            "category": "Category VVV",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 75,
+            "name": "What factors influence resilience in children?",
+            "category": "Category WWW",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 76,
+            "name": "How does social media usage affect academic performance?",
+            "category": "Category XXX",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 77,
+            "name": "What are the effects of screen time on children's development?",
+            "category": "Category YYY",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 78,
+            "name": "How does technology influence emotional intelligence?",
+            "category": "Category ZZZ",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 79,
+            "name": "What factors influence learning motivation?",
+            "category": "Category AAAA",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 80,
+            "name": "How does technology impact cognitive development?",
+            "category": "Category BBBB",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 81,
+            "name": "What are the effects of family structure on child development?",
+            "category": "Category CCCC",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 82,
+            "name": "How does technology influence socialization?",
+            "category": "Category DDDD",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 83,
+            "name": "What factors influence childhood obesity?",
+            "category": "Category EEEE",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 84,
+            "name": "How does technology affect social behavior?",
+            "category": "Category FFFF",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 85,
+            "name": "What are the effects of parental involvement on academic achievement?",
+            "category": "Category GGGG",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 86,
+            "name": "How does technology impact social change?",
+            "category": "Category HHHH",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 87,
+            "name": "What factors influence cyberbullying behavior?",
+            "category": "Category IIII",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 88,
+            "name": "How does social media usage impact empathy?",
+            "category": "Category JJJJ",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 89,
+            "name": "What are the effects of technology on interpersonal communication?",
+            "category": "Category KKKK",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 90,
+            "name": "How does technology influence social identity?",
+            "category": "Category LLLL",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 91,
+            "name": "What factors influence peer relationships?",
+            "category": "Category MMMM",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 92,
+            "name": "How does technology impact social cognition?",
+            "category": "Category NNNN",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 93,
+            "name": "What are the effects of technology on attention deficit hyperactivity disorder (ADHD)?",
+            "category": "Category OOOO",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 94,
+            "name": "How does technology affect social learning?",
+            "category": "Category PPPP",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 95,
+            "name": "What factors influence online social behavior?",
+            "category": "Category QQQQ",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 96,
+            "name": "How does technology impact emotional well-being?",
+            "category": "Category RRRR",
+            "data": [25, 30, 35, 40, 45, 50, 55],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 97,
+            "name": "What are the effects of technology on social relationships?",
+            "category": "Category SSSS",
+            "data": [20, 25, 30, 35, 40, 45, 50],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 98,
+            "name": "How does technology influence social interactions?",
+            "category": "Category TTTT",
+            "data": [15, 20, 25, 30, 35, 40, 45],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 99,
+            "name": "What factors influence online communication behavior?",
+            "category": "Category UUUU",
+            "data": [30, 40, 50, 60, 70, 80, 90],
+            "labels": ["A", "B", "C", "D", "E", "F", "G"]
+        },
+        {
+            "id": 100,
+            "name": "How does technology impact social norms?",
+            "category": "Category VVVV",
+            "data": [10, 20, 30, 40, 50, 60, 70],
+            "labels": ["A", "B", "C", "D", "E", "F", "K"]
+        }
     ]
   }
